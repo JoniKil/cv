@@ -1,9 +1,45 @@
+<!-- <p></p> paragraphs,
+     h1...h6 headings
+     <br> self closing tag, breaks for example sentences
+     (unordered lists)<ul><li></li></ul> bullet points
+     <hr size="3" noshade> Makes a long divider line
+    (ordered lists) <ol><li></li></ol> 1., 2., 3.,
+    <img src= > is a self closing tag
+      <a download href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">Download Cheatsheet</a> downloads files directly
+  <a href="xxxx">xxx</a> anchor element, lets you create hyperlinks-->
+
+<!--
+HTML - STRUCTURE
+CSS - STYLING
+JAVASCRIPT - BEHAVIOUR
+
+Creating tables
+<table>
+    <tr>
+      <td>Joni</td>
+      <td>12</td>
+    </tr>
+</table>
+<thead = tablehead (when making a heading for a table)
+tr = tablerow
+th = tableheader cell
+tbody = tablebody
+td = table cell, where the info goes
+tfoot = below tablehead and body, group footer content in an html table
+<form>
+
+<label>Name: </label>
+<input type="text">
+<input type="submit">
+</form>
+ -->
+
 <!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="utf-8">
-  <title>Joni Kilpel√§inen</title>
+  <title>Joni Kilpel‰inen</title>
   <link rel="stylesheet" href="CSS\styles.css">
 
 </head>
@@ -11,9 +47,9 @@
 <body>
   <table cellspacing="20">
     <tr>
-      <td><img class= "Jonikilpe circular" src = "https://media.licdn.com/dms/image/C4D03AQGcJuihc-YakQ/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=BY2-ZAWmNVd904HX_WcEhoVO6tmULKTgRmb3TTIQy-I" alt="Jonikilpe"> <br></td>
+      <td><img src="https://media.licdn.com/dms/image/C4D03AQGcJuihc-YakQ/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=BY2-ZAWmNVd904HX_WcEhoVO6tmULKTgRmb3TTIQy-I" alt="Jonkilpe" <br></td>
       <td>
-        <h1>Joni Kilpel√§inen CV</h1>
+        <h1>Joni Kilpel‰inen CV</h1>
         <p><em>Information Processing Science student from the <strong>university of Oulu.</strong></em></p>
         <p>My main interests are creating websites and video games. I'm looking for a trainee position in a software development company.</p>
         <p>
@@ -41,7 +77,7 @@
         <td>Claims handler, If insurance, Oulu, Summerjob (4 months)</td>
       </tr>
       <tr>
-        <td>2014 ‚Äì 2016</td>
+        <td>2014 ñ 2016</td>
         <td>School assistant, Oulun Lyseon lukio, Oulu</td>
       </tr>
     </tbody>
@@ -50,7 +86,7 @@
   </table>
   <hr size="3" noshade>
   <h3>Skills</h3>
-  <table cellspacing="15">
+  <table cellspacing="10">
     <tr>
       <td>Java development</td>
       <td>Basics</td>
@@ -67,21 +103,17 @@
       <td>HTML</td>
       <td>Intermediate</td>
     </tr>
-    <tr>
-      <td>CSS3</td>
-      <td>Intermediate</td>
-      </tr>
   </table>
   <hr size="3" noshade>
   <h3>My hobbies</h3>
-  <ul>
+  <ol>
     <li><a href="https://www.deviantart.com/pakuri/gallery/">Drawing</a></li>
     <li>Guitar playing</li>
     <li>Reading</li>
     <li>All kinds of board games, more complex the better</li>
     <li>Tabletop RPGs</li>
     <li>Video games</li>
-  </ul>
+  </ol>
   <a href="hobbies.html">My Hobbies</a>
   <p><a href="ContactMe.html">My Contact Information</a></p>
 </body>
